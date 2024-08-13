@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0px;
+  }
+  
+  .add-appointments-container {
+    background-image: linear-gradient(#fbc7d4, #9796f0);
+    min-height: 100vh;
+    background-size: cover;
+    padding: 25px;
+  }
+  
+  .appointment-card-container {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 35px;
+  }
+  
+  .main-heading {
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 800;
+    color: #171f46;
+  }
+  
+  .title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  
+  .labelText {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 800;
+    color: #b5b7c4;
+  }
+  
+  .inputText {
+    font-family: 'Roboto';
+    font-size: 14px;
+    margin-top: 3px;
+    height: 30px;
+    width: 180px;
+  }
+  
+  .addButton {
+    height: 30px;
+    width: 60px;
+    background-color: #8b5cf6;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 800;
+    color: #ffffff;
+    border-width: 0px;
+    border-radius: 6px;
+    margin-top: 10px;
+  }
+  
+  .appointments-image {
+    width: 45%;
+  }
+  
+  .form-image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .hr-rule {
+    border: 1px solid #b5b7c4;
+  }
+  
+  .heading {
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: 800;
+    color: #171f46;
+  }
+  
+  .appointments {
+    height: 100%;
+  }
+  
+  .startButton {
+    height: 25px;
+    width: 70px;
+    border: 1px #8b5cf6 solid;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 800;
+    color: #9897f0;
+    background-color: transparent;
+    border-radius: 12px;
+  }
+  
+  .appointments-list {
+    list-style-type: none;
+    padding-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  
+  .startbtn-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .appointments-image {
+      display: none;
+    }
+  
+    .appointment-card-container {
+      padding: 20px;
+    }
+  
+    .heading {
+      font-size: 15px;
+    }
+  
+    .main-heading {
+      font-size:15px;
+    }
+  }
